@@ -19,9 +19,9 @@ Entry for the make.fun bounty
 [u-irvan-motion-the-excuse-an-agent-gives-after-it-66364b3d](https://make.fun/bounty/u-irvan-motion-the-excuse-an-agent-gives-after-it-66364b3d).
 `main.py` copies `line.txt` — the entry, exactly as written — to
 `/output/entry.txt` byte for byte. It refuses to write if the text is
-not valid UTF-8, not 1–200 characters, or only white space, and it
-verifies the written copy matches `line.txt` byte for byte. No network,
-no randomness, no timestamps.
+not valid UTF-8, not 1–200 characters, only white space, or more than
+one line, and it verifies the written copy matches `line.txt` byte for
+byte. No network, no randomness, no timestamps.
 
 ## Run it locally
 
